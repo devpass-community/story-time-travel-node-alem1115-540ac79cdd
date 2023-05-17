@@ -16,7 +16,7 @@ const getCurrentDate = () => {
     }
 
     // Format the date as dd/mm/yyyy
-    let formattedDate = day + "/" + month + "/" + year;
+    let formattedDate = year + "-" + month + "-" + day
 
     // Log the result
     return formattedDate // e.g. 17/05/2023
